@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id = "text"></div>
+    <button id="save" type="button">Save</button>
+    <button id="load" type="button">Load</button>
     <canvas id="gameWorld" tabindex="1" width="1200" height="600"></canvas>
     <p>
         A basic physics simulation with color-coded crates.<br/><br/>
@@ -20,6 +23,7 @@
 
     <script type="text/javascript" src="./gameengine.js"></script>
     <script type="text/javascript" src="./assetmanager.js"></script>
+    <script type="text/javascript" src="http://24.16.255.56:8888/socket.io/socket.io.js"></script>
     <!-- <script type="text/javascript" src="./trooper.js"></script>
     <script type="text/javascript" src="./dummy.js"></script>
     <script type="text/javascript" src="./Luke.js"></script>
